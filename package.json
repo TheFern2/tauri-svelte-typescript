@@ -8,7 +8,7 @@
     "validate": "svelte-check",
     "tauri": "tauri",
     "dev": "tauri dev",
-    "bundle": "rollup -c && tauri build"
+    "bundle": "tauri build"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^16.0.0",
